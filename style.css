@@ -1,0 +1,40 @@
+body {
+    background: #171717;
+
+    height: 100%;
+    width: 100%;
+}
+
+#editor {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    padding: 0;
+    margin: 0;
+
+    height: 100%;
+    width: 60%;
+}
+
+#canvas {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#error {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 19%;
+    width: 39%;
+
+    background: none;
+    border: none;
+    resize: none;
+
+    font-size: 17px;
+    color: #d8d8d8;
+}
