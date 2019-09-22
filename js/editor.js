@@ -6,7 +6,7 @@
         editor.setFontSize(13);
         editor.getSession().setMode("ace/mode/glsl");
         editor.setTheme('ace/theme/tomorrow_night_eighties');
-        editor.setValue('// // write your cool shader in here');
+        editor.setValue('// write your cool shader in here.');
 
         const editorElement = document.getElementById('editor');
 
