@@ -13,8 +13,8 @@ body {
     padding: 0;
     margin: 0;
 
-    height: 100%;
-    width: 60%;
+    height: 80%;
+    width: 50%;
 }
 
 #canvas {
@@ -26,15 +26,15 @@ body {
 #error {
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
 
-    height: 19%;
-    width: 39%;
+    height: 20%;
+    width: 100%;
 
     background: none;
     border: none;
     resize: none;
 
-    font-size: 17px;
+    font-size: 18px;
     color: #d8d8d8;
 }

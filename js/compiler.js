@@ -110,7 +110,7 @@ const errorLog = document.getElementById('error');
 
 const canvas = document.getElementById('canvas');
 const height = innerHeight * 0.8;
-const width = innerWidth * 0.4;
+const width = innerWidth * 0.5;
 canvas.height = height;
 canvas.width = width;
 
