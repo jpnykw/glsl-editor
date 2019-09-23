@@ -6,7 +6,7 @@ const vertexShader = `
 `;
 
 const render = input => {
-    errorLog.value = 'No Errors!';
+    errorLog.value = '';
 
     const fragmentShader = input;
     const createProgram = (vs, fs) => {
